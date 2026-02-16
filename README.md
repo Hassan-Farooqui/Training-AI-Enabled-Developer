@@ -48,12 +48,12 @@ Microsoft Applied Skills assessment and obtaining **The Accelerate app developme
 
 | # | Module | Duration | Units | Description | Access |
 |---|--------|----------|-------|-------------|--------|
-| 1 | **Introduction to GitHub & Copilot** | 2 hours | 3 | Learn GitHub fundamentals, GitHub Copilot basics, and responsible AI principles. Set up your development environment for AI-powered coding. | [📖 Go](modules/module1-intro-github-copilot/) |
-| 2 | **Foundations & Inline Code** | 2 hours | 2 | Master inline code assistance, code actions, and multi-environment support. Learn to work efficiently across multiple programming languages. | [📖 Go](modules/module2-foundations-inline/) |
-| 3 | **Copilot As Assistant** | 2 hours | 2 | Leverage Copilot's chat interface for conversational development. Master context-aware prompting and advanced interaction techniques. | [📖 Go](modules/module3-copilot-assistant/) |
-| 4 | **Copilot Agent Mode** | 2 hours | 1 | Learn to delegate complex, multi-step tasks to Copilot Agent. Create custom instructions and prompt files for reusable patterns. | [📖 Go](modules/module4-agent-mode/) |
-| 5 | **Testing with GitHub Copilot** | 2 hours | 1 | Master AI-assisted testing strategies. Generate comprehensive test suites, handle edge cases, and debug effectively with test feedback. | [📖 Go](modules/module5-testing/) |
-| 🎓 | **Capstone Project** | 3 hours | — | Apply all your skills to build a complete real-world application. Demonstrate mastery of AI-enabled development practices. | [📖 Go](modules/Capstone%20Project/) |
+| 1 | **Introduction to GitHub & Copilot** | 3 hours | 3 | Learn GitHub fundamentals, GitHub Copilot basics, and responsible AI principles. Set up your development environment for AI-powered coding. | [📖 Go](modules/module1-intro-github-copilot/) |
+| 2 | **Foundations & Inline Code** | 3 hours | 2 | Master inline code assistance, code actions, and multi-environment support. Learn to work efficiently across multiple programming languages. | [📖 Go](modules/module2-foundations-inline/) |
+| 3 | **Copilot As Assistant** | 3 hours | 2 | Leverage Copilot's chat interface for conversational development. Master context-aware prompting and advanced interaction techniques. | [📖 Go](modules/module3-copilot-assistant/) |
+| 4 | **Copilot Agent Mode** | 3 hours | 1 | Learn to delegate complex, multi-step tasks to Copilot Agent. Create custom instructions and prompt files for reusable patterns. | [📖 Go](modules/module4-agent-mode/) |
+| 5 | **Testing with GitHub Copilot** | 3 hours | 1 | Master AI-assisted testing strategies. Generate comprehensive test suites, handle edge cases, and debug effectively with test feedback. | [📖 Go](modules/module5-testing/) |
+| 🎓 | **Capstone Project** | Varies | — | Apply all your skills to build a complete real-world application. Demonstrate mastery of AI-enabled development practices. | [📖 Go](modules/Capstone%20Project/) |
 
 
 ### Prerequisites
@@ -78,7 +78,7 @@ Day 5: Module 5 - Testing
 Day 6: Capstone Project - Apply All Skills
 ```
 
-**Total Time Commitment:** 10 hours 
+**Total Time Commitment:** 15 hours 
 
 ---
 
