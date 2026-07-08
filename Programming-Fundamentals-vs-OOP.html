@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Programming Fundamentals vs Object-Oriented Programming (OOP)</title>
+  <style>
+    body { font-family: Arial, sans-serif; line-height: 1.6; margin: 40px; background: #f9f9f9; color: #222; }
+    h1, h2, h3 { color: #1f4e79; }
+    p { max-width: 800px; }
+    table { border-collapse: collapse; width: 100%; max-width: 900px; margin: 20px 0; }
+    th, td { border: 1px solid #ccc; padding: 12px 15px; text-align: left; }
+    th { background: #e9f1fb; }
+    pre { background: #f4f4f4; padding: 15px; overflow-x: auto; }
+    code { font-family: Consolas, Monaco, monospace; }
+    section { margin-bottom: 32px; }
+  </style>
+</head>
+<body>
+  <h1>Programming Fundamentals vs Object-Oriented Programming (OOP)</h1>
+
+  <section>
+    <h2>Introduction</h2>
+    <p>Programming Fundamentals and Object-Oriented Programming (OOP) are two important ideas in coding. Programming Fundamentals covers the basic building blocks of software, while OOP introduces a way to organize code around objects and their behavior.</p>
+    <p>This page explains both ideas clearly and compares them in a beginner-friendly way.</p>
+  </section>
+
+  <section>
+    <h2>Programming Fundamentals</h2>
+    <p>Programming Fundamentals are the basic concepts used in almost every programming language. They include:</p>
+    <ul>
+      <li><strong>Variables</strong>: store values like numbers or text.</li>
+      <li><strong>Data types</strong>: define the kind of values, such as integers, strings, and booleans.</li>
+      <li><strong>Operators</strong>: perform actions like addition, comparison, and assignment.</li>
+      <li><strong>Control flow</strong>: decide what code runs using <code>if</code>, <code>else</code>, <code>while</code>, and <code>for</code>.</li>
+      <li><strong>Functions</strong>: group code into reusable blocks that can be called with input values.</li>
+      <li><strong>Input/output</strong>: read data from users or files and display results.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Core OOP Concepts</h2>
+    <p>Object-Oriented Programming models software using objects that combine data and behavior. The main concepts are:</p>
+    <ul>
+      <li><strong>Classes</strong>: templates or blueprints for creating objects.</li>
+      <li><strong>Objects</strong>: actual instances of classes with their own data.</li>
+      <li><strong>Encapsulation</strong>: keeps an object's data and behavior together and hides internal details.</li>
+      <li><strong>Inheritance</strong>: lets a class use features from another class.</li>
+      <li><strong>Polymorphism</strong>: allows different objects to be used through the same interface.</li>
+      <li><strong>Abstraction</strong>: focuses on essential features while hiding complexity.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Comparison Table</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Feature</th>
+          <th>Programming Fundamentals</th>
+          <th>Object-Oriented Programming (OOP)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Main focus</td>
+          <td>Basic code structure and logic</td>
+          <td>Organizing code into objects and relationships</td>
+        </tr>
+        <tr>
+          <td>Data handling</td>
+          <td>Separate from functions</td>
+          <td>Combined inside objects</td>
+        </tr>
+        <tr>
+          <td>Reusability</td>
+          <td>Functions and modules</td>
+          <td>Classes and inheritance</td>
+        </tr>
+        <tr>
+          <td>Complexity</td>
+          <td>Easier for simple tasks</td>
+          <td>Helps manage larger systems</td>
+        </tr>
+        <tr>
+          <td>Best for</td>
+          <td>Small scripts and learning basics</td>
+          <td>Applications with many related entities</td>
+        </tr>
+        <tr>
+          <td>Example style</td>
+          <td>Procedural / step-by-step</td>
+          <td>Model objects and interactions</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>Advantages and Disadvantages</h2>
+    <h3>Programming Fundamentals</h3>
+    <p><strong>Advantages:</strong></p>
+    <ul>
+      <li>Easier to learn first</li>
+      <li>Good for simple scripts and small programs</li>
+      <li>Works in any language</li>
+    </ul>
+    <p><strong>Disadvantages:</strong></p>
+    <ul>
+      <li>Can become hard to manage in large projects</li>
+      <li>Less natural for modeling real-world entities</li>
+      <li>Code may repeat more often</li>
+    </ul>
+
+    <h3>Object-Oriented Programming (OOP)</h3>
+    <p><strong>Advantages:</strong></p>
+    <ul>
+      <li>Helps organize complex systems</li>
+      <li>Encourages reusable code with classes</li>
+      <li>Makes it easier to model real-world concepts</li>
+    </ul>
+    <p><strong>Disadvantages:</strong></p>
+    <ul>
+      <li>Requires more planning and structure</li>
+      <li>Can be more difficult for beginners at first</li>
+      <li>May add overhead for very small programs</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Simple Code Examples</h2>
+    <h3>Programming Fundamentals Example</h3>
+    <pre><code># A simple function to add two numbers
+
+def add_numbers(a, b):
+    return a + b
+
+result = add_numbers(3, 5)
+print("Sum:", result)
+</code></pre>
+
+    <h3>OOP Example</h3>
+    <pre><code># A class for a simple bank account
+
+class BankAccount:
+    def __init__(self, owner, balance=0):
+        self.owner = owner
+        self.balance = balance
+
+    def deposit(self, amount):
+        self.balance += amount
+
+    def withdraw(self, amount):
+        if amount <= self.balance:
+            self.balance -= amount
+            return True
+        return False
+
+account = BankAccount("Ali", 100)
+account.deposit(50)
+print(account.balance)  # 150
+</code></pre>
+  </section>
+
+  <section>
+    <h2>Conclusion</h2>
+    <p>Programming Fundamentals are the first step in learning how to code. They teach the basic building blocks of logic, data, and control flow.</p>
+    <p>OOP builds on those fundamentals by organizing code around objects, making it easier to manage larger applications and model real-world ideas. Both styles are useful: start with fundamentals, and use OOP when your program grows in size or complexity.</p>
+  </section>
+</body>
+</html>
