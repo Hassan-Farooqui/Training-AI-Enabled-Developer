@@ -5,7 +5,7 @@
 <br>
 
 # AI Enabled Developer - Complete Training Course
-
+hassan farooqui
 ⭐ Don’t forget to star it on GitHub — it makes navigation easier!
 
 [Getting Started](https://github.com/Mazik-Pakistan/Training-AI-Enabled-Developer/tree/main/modules/module1-intro-github-copilot) • [Lessons](#course-overview) • [Keep Learning](#keep-learning)
